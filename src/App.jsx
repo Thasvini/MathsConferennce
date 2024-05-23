@@ -8,6 +8,7 @@ import Campus from './components/campus/Campus'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Videoplayer from './components/videoplayer/Videoplayer'
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
@@ -17,20 +18,20 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className="container">
-        <Title subtitle='About The Event' title='Conference'/>
+        <Title subtitle='Our Program' title='What We Offer'/>
         <Programs/>
-        <Title subtitle='Speakers' title='About The Speakers'/>
-        <Testimonials/>
-        <About/>
+        <About setPlayState={setPlayState}/>
         <Title subtitle='Gallery' title='Campus Photos'/>
         <Campus/>
-        
-        <Title subtitle='Register' title='Submit Your Paper'/>
+        <Title subtitle='TESTIMONIALS' title='What Student Says'/>
+        <Testimonials/>
+        <Title subtitle='Contact Us' title='Get in Touch'/>
         <Contact/>
         <Footer/>
       </div>
+      <Videoplayer playState={playState} setPlayState={setPlayState}/>
     </div>
   )
 }
 
-export default App
+export default App;

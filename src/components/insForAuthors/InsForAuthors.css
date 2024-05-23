@@ -1,0 +1,79 @@
+.instructions-container {
+    padding: 40px;
+    padding-top: 10%;
+    background-color: aqua;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  .table{
+    border-radius: 30%;
+    padding: 20%;
+    max-width: 80%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 350%;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 270%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 10px;
+    vertical-align: top;
+  }
+  
+  .label {
+    font-weight: bold;
+    width: 30%;
+    font-size: 200%;
+    color: white;
+    background-color: black;
+  }
+  
+  .value {
+    width: 70%;
+    background-color: #ffffff;
+    font-size:200%
+  }
+  
+  @media (max-width: 768px) {
+    .label,
+    .value {
+      display: block;
+      width: 100%;
+    }
+    
+    .label {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .instructions-container {
+      padding: 10px;
+    }
+    
+    h1 {
+      font-size: 1.5em;
+    }
+    
+    h2 {
+      font-size: 1.2em;
+    }
+    
+    td {
+      padding: 5px;
+    }
+  }
+  
