@@ -43,10 +43,10 @@ const Navbar = () => {
           <span onClick={toggleDropdown}>Organizing Committee</span>
           <ul className={`dropdown-menu ${dropdown ? "show" : ""}`}>
             <li>
-              <Link to="/instructions">Organizing Committee</Link>
+              <Link to="/organizers">Organizing Committee</Link>
             </li>
             <li>
-              <Link to="/registrationfees">Keynote Speakers</Link>
+              <Link to="/speakers">Keynote Speakers</Link>
             </li>
           </ul>
         </li>
@@ -62,14 +62,11 @@ const Navbar = () => {
             <li>
               <Link to="/plantravel">Plan Travel</Link>
             </li>
-            <li>
-              <Link to="/downloads">Downloads</Link>
-            </li>
           </ul>
         </li>
         
         <li>
-          <Link to="/contact" className="btn">Contact Us</Link>
+          <Link to="/contact" className="btn">Register</Link>
         </li>
       </ul>
       {mobileMenu ? (

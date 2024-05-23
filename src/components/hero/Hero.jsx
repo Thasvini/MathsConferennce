@@ -19,7 +19,7 @@ const Hero = () => {
             offset={-260}
             duration={500}
           >
-            Contact Us
+            Register Now
          <img src={dark_arrow} alt="" /> </Link>
         </button>
       </div>

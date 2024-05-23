@@ -9,8 +9,6 @@ const About = () => {
         <img src={about_img} alt="" className="about-img" />
       </div>
       <div className="about-right">
-        <h3>ABOUT THE COLLEGE</h3>
-        <h2>Sri Eshwar College Of Engineering</h2>
         <p>
           Sri Eshwar College of Engineering is an Autonomous Institution,
           approved by AICTE, New Delhi and Affiliated to Anna University,

@@ -18,14 +18,12 @@ const Campus = () => {
             <img src={gallery_2} alt="" />
             <img src={gallery_3} alt="" />
             <img src={gallery_4} alt="" />
-           
-        </div>
-        <div className="gallery">
            <img src={gallery_5} alt="" />
             <img src={gallery_6} alt="" />
             <img src={gallery_7} alt="" />
             <img src={gallery_8} alt="" />
         </div>
+       
         <a href="https://sece.ac.in/about-us"><button className='btn dark-btn'>See more here <img src={white_arrow} alt="" /></button></a>
     </div>
   )

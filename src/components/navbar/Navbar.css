@@ -91,7 +91,7 @@ a:hover {
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 900px) {
   nav {
     padding: 15px 0;
   }
@@ -136,6 +136,7 @@ a:hover {
     width: 30px; /* Adjust size as necessary */
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
+    z-index: 10;
   }
 
   .hide-mobile-menu {
