@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import dark_arrow from "../../assets/dark-arrow.png";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -11,9 +12,15 @@ const Hero = () => {
         <h2>
           1st INTERNATIONAL CONFERENCE ON MATHEMATICS IN SCIENCE AND TECHNOLOGY
         </h2>
-        <button className="btn">
-          {" "}
-          Register Now <img src={dark_arrow} alt="" />
+       <button className="btn">
+       <Link
+            to="contact"
+            smooth={true}
+            offset={-260}
+            duration={500}
+          >
+            Contact Us
+         <img src={dark_arrow} alt="" /> </Link>
         </button>
       </div>
     </div>

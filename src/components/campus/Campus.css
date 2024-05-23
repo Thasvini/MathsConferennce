@@ -11,6 +11,7 @@
 }
 .campus .gallery img {
   width: 23%;
+  height: 150px;
   border-radius: 10px;
 }
 
