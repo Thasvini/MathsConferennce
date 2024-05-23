@@ -28,6 +28,10 @@ const Navbar = () => {
   const toggleDropdown = () => {
     setDropdown(!dropdown);
   };
+  const [dropdown2, setDropdown2] = useState(false);
+  const toggleDropdown2 = () => {
+    setDropdown2(!dropdown2);
+  };
 
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
@@ -35,22 +39,20 @@ const Navbar = () => {
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/#programs">Programs</Link>
-        </li>
-        <li>
-          <Link to="/#about">About Us</Link>
-        </li>
-        <li>
-          <Link to="/#campus">Campus</Link>
-        </li>
-        <li>
-          <Link to="/#testimonials">Testimonials</Link>
-        </li>
-        <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-          <span onClick={toggleDropdown}>More</span>
+        </li><li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+          <span onClick={toggleDropdown}>Organizing Committee</span>
           <ul className={`dropdown-menu ${dropdown ? "show" : ""}`}>
+            <li>
+              <Link to="/instructions">Organizing Committee</Link>
+            </li>
+            <li>
+              <Link to="/registrationfees">Keynote Speakers</Link>
+            </li>
+          </ul>
+        </li>
+        <li className="dropdown" onMouseEnter={toggleDropdown2} onMouseLeave={toggleDropdown2}>
+          <span onClick={toggleDropdown}>Instruction For Authors</span>
+          <ul className={`dropdown-menu ${dropdown2 ? "show" : ""}`}>
             <li>
               <Link to="/instructions">Instruction for authors</Link>
             </li>
@@ -65,6 +67,7 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
+        
         <li>
           <Link to="/contact" className="btn">Contact Us</Link>
         </li>
