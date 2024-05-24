@@ -12,6 +12,9 @@ const InsForAuthors = () => {
             1st INTERNATIONAL CONFERENCE ON MATHEMATICS IN SCIENCE AND
             TECHNOLOGY
           </h2>
+          <h2>
+            SCROLL DOWN FOR MORE
+          </h2>
         </div>
       </div>
       <div className="instructions-container1">

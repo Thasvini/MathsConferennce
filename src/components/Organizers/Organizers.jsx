@@ -39,7 +39,7 @@ const Organizers = () => {
           <div className="organizer-row">
             <div className="role">PROGRAM ADVISOR</div>
             <div className="desc">
-              <b>Mr. Kannan Narasimhan</b>, IT Director, Sri Eshwar College of
+              <b>Dr. H. Anandakumar</b>, Professor, Department of Computer Science and Engineering, Sri Eshwar College of
               Engineering, Coimbatore, India.
             </div>
           </div>
@@ -116,41 +116,31 @@ const Organizers = () => {
           <h2>Indian Advisory Board Committee </h2>
           <ul>
             <li>
-              <strong>Dr. R. Sakthivel</strong>, Bharathiar University, India
-            </li>
-            <li>
-              <strong>Dr. Marshal Anthony</strong>, Anna University
-              (Coimbatore), India
-            </li>
-            <li>
               <strong>Dr. K. Balachandran</strong>, Bharathiar University, India
+            </li>
+            <li>
+              <strong>Dr. R. Sakthivel</strong>, Bharathiar University, India
             </li>
             <li>
               <strong>Dr. P. Balasubramaniam</strong>, The Gandhigram Rural
               Institute-Deemed to be University, India
             </li>
             <li>
-              <strong>Dr. A. Anguraj</strong>, PSG College of Arts & Science,
-              India
+              <strong>Dr. Marshal Anthony</strong>, Anna University
+              (Coimbatore), India
             </li>
             <li>
-              <strong>Dr. R. Sivaraj</strong>, Dr B R Ambedkar National
-              Institute of Technology Jalandhar, India
+              <strong>Dr. A. Anguraj</strong>, PSG College of Arts & Science,
+              India
             </li>
             <li>
               <strong>Dr. K. Somasundaram</strong>, Amrita Vishwa Vidyapeetham,
               India
             </li>
             <li>
-              <strong>Dr. Syed Ali</strong>, Thiruvalluvar University, India
-            </li>
-            <li>
               <strong>Dr. N. Anbazhagan</strong>, Alagappa University, India
             </li>
-            <li>
-              <strong>Dr. T. Jayakumar</strong>, Sri Ramakrishna Mission
-              Vidyalaya College of Arts and Science, India
-            </li>
+            
             <li>
               <strong>Dr. K. Thilagavathi</strong>, Kongunadu Arts and Science
               College, India
@@ -158,6 +148,17 @@ const Organizers = () => {
             <li>
               <strong>Dr. B. Sundara Vadivoo</strong>, Central University of
               Tamil Nadu, Thiruvarur, India
+            </li>
+            <li>
+              <strong>Dr. T. Jayakumar</strong>, Sri Ramakrishna Mission
+              Vidyalaya College of Arts and Science, India
+            </li>
+            <li>
+              <strong>Dr. R. Sivaraj</strong>, Dr B R Ambedkar National
+              Institute of Technology Jalandhar, India
+            </li>
+            <li>
+              <strong>Dr. Syed Ali</strong>, Thiruvalluvar University, India
             </li>
             <li>
               <strong>Dr. K. Kalaiarasi</strong>, Cauvery College for Women,
@@ -185,16 +186,25 @@ const Organizers = () => {
               <strong>Dr. R. Saranya</strong>, Assistant Professor
             </li>
             <li>
+              <strong>Dr. C. Gokila</strong>, Assistant Professor
+            </li>
+            <li>
               <strong>Dr. B. Vennila</strong>, Assistant Professor
             </li>
             <li>
-              <strong>Dr. M. P. Sindhu</strong>
+              <strong>Dr. M. P. Sindhu</strong>, Assistant Professor
             </li>
             <li>
-              <strong>Dr. M. Tamilarasi</strong>
+              <strong>Dr. M. Tamilarasi</strong>, Assistant Professor
+            </li>
+            <li>
+              <strong>Dr. S. Varshini</strong>, Assistant Professor
             </li>
             <li>
               <strong>Mrs. A. Revathy</strong>, Assistant Professor (SL.Gr)
+            </li>
+            <li>
+              <strong>Mrs. V. Deepa</strong>, Assistant Professor (SL.Gr)
             </li>
             <li>
               <strong>Mrs. K. Sivaranjani</strong>, Assistant Professor (SL.Gr)

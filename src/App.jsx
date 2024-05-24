@@ -5,6 +5,7 @@ import Hero from "./components/hero/Hero";
 import Programs from "./components/programs/Programs";
 import Title from "./components/title/Title";
 import About from "./components/about/About";
+import Department from "./components/dept/Department";
 import Campus from "./components/campus/Campus";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -39,7 +40,9 @@ const App = () => {
                   title="Sri Eshwar College Of Engineering"
                 />
                 <About />
-
+                <Title subtitle="ABOUT THE DEPARTMENT" 
+                       title="Department of Mathematics" />
+                <Department/>
                 <Title subtitle="Gallery" title="Campus Photos" />
                 <Campus />
                 <Title subtitle="Contact Us" title="Get in Touch" />
