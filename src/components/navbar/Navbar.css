@@ -26,7 +26,7 @@ nav ul {
 nav ul li {
   position: relative;
   padding: 5px 20px;
-  font-size: 16px;
+  font-size:4px;
   font-weight: 500;
 }
 
@@ -104,7 +104,7 @@ a:hover {
     bottom: 0;
     background: white;
     z-index: 9; /* Ensure it is on top of other content */
-    width: 210px;
+    width: 205px;
     padding-top: 70px;
     transition: 0.5s;
     flex-direction: column;
@@ -113,8 +113,8 @@ a:hover {
 
   nav ul li {
     display: block;
-    margin: 10px 20px;
-    width: 100%; /* Ensure li takes full width */
+    margin: 5px 20px;
+    width: 90%; /* Ensure li takes full width */
   }
 
   nav ul li .dropdown-menu {
@@ -168,6 +168,6 @@ a:hover {
   }
 
   .dropdown-menu li a {
-    font-size: 14px; /* Adjust font size if necessary */
+    font-size: 13px; 
   }
 }

@@ -7,7 +7,7 @@ const InsForAuthors = () => {
       <div className="hero1">
         <div className="hero-text1">
           <h1>ICMST-2025</h1>
-          <p>February 05, 06, 2025</p>
+          <p>February 06, 07, 2025</p>
           <h2>
             1st INTERNATIONAL CONFERENCE ON MATHEMATICS IN SCIENCE AND
             TECHNOLOGY

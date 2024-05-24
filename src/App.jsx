@@ -15,6 +15,8 @@ import RegistrationFees from "./components/registrationFees/RegistrationFees";
 import Scope from "./components/Scope/Scope";
 import Organizers from "./components/Organizers/Organizers";
 import Speakers from "./components/speakers/Speakers";
+import Iabc from "./components/iabc/Iabc";
+import Nabc from "./components/nabc/Nabc";
 import ScrollToTop from "./ScrollToTop"; 
 
 const App = () => {
@@ -58,6 +60,8 @@ const App = () => {
         <Route path="/plantravel" element={<PlanTravel />} />
         <Route path="/organizers" element={<Organizers />} />
         <Route path="/speakers" element={<Speakers />} />
+        <Route path="/iabc" element={<Iabc />} />
+        <Route path="/nabc" element={<Nabc />} />
       </Routes>
       <Footer />
     </Router>

@@ -13,7 +13,6 @@ const Footer = () => {
           <div className="footer-col">
             <h5>Contact</h5>
             <ul>
-              <li>Dr. D. Prasantha Bharathi,</li>
               <li>Email: icmst@sece.ac.in</li>
               <li>Mobile: +91 63811 38369.</li>
               <li>

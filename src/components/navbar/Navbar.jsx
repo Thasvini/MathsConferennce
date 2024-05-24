@@ -39,14 +39,21 @@ const Navbar = () => {
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <Link to="/">HOME</Link>
-        </li><li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+        </li>
+        <li>
+          <Link to="/speakers">KEYNOTE SPEAKERS</Link>
+        </li>
+        <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
           <span onClick={toggleDropdown}>COMMITTEE</span>
           <ul className={`dropdown-menu ${dropdown ? "show" : ""}`}>
             <li>
               <Link to="/organizers">ORGANIZING COMMITTEE</Link>
             </li>
             <li>
-              <Link to="/speakers">KEYNOTE SPEAKERS</Link>
+              <Link to="/iabc">INTERNATIONAL ADVISORY BOARD COMMITTEE</Link>
+            </li>
+            <li>
+              <Link to="/nabc">NATIONAL ADVISORY BOARD COMMITTEE</Link>
             </li>
           </ul>
         </li>

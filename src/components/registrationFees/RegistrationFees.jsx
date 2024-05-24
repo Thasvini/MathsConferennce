@@ -7,7 +7,7 @@ const RegistrationFees = () => {
       <div className="hero2">
         <div className="hero-text2">
           <h1>ICMST-2025</h1>
-          <p>February 05, 06, 2025</p>
+          <p>February 06, 07, 2025</p>
           <h2>GATHER INFORMATION ABOUT REGISTRATION FEES HERE</h2>
         </div>
       </div>
