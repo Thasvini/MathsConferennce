@@ -2,7 +2,6 @@ nav {
   width: 100%;
   background-color: white;
   color: black;
-  padding: 4px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -20,7 +19,7 @@ nav .logo {
 nav ul {
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items:start;
 }
 
 nav ul li {
@@ -44,7 +43,7 @@ nav ul li .dropdown-menu {
 
 nav ul li .dropdown-menu li {
   display: block;
-  padding: 5px 10px;
+  padding: 12px;
   white-space: normal; /* Allow text to wrap */
   word-wrap: break-word;
   margin-top: 12px;
