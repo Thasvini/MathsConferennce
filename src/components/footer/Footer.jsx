@@ -34,7 +34,7 @@ const Footer = () => {
                 TamilNadu, INDIA.
               </li>
               <li>
-                <a href="http://www.icsmt-sece.in/">Submit your paper</a>
+                <a href="/">Submit your paper</a>
               </li>
             </ul>
           </div>
