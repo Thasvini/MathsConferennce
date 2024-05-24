@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import Routes component from react-router-dom
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import Programs from "./components/programs/Programs";
@@ -15,23 +15,23 @@ import RegistrationFees from "./components/registrationFees/RegistrationFees";
 import Scope from "./components/Scope/Scope";
 import Organizers from "./components/Organizers/Organizers";
 import Speakers from "./components/speakers/Speakers";
+import ScrollToTop from "./ScrollToTop"; 
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
 
   return (
     <Router>
+      <ScrollToTop /> {/* Add ScrollToTop component */}
       <Navbar />
       <Routes>
-        {/* Wrap your routes inside <Routes> */}
         <Route
           path="/"
           element={
-            // Specify 'element' prop instead of rendering Route directly
             <div>
               <Hero />
               <div className="container">
-                <Title subtitle="Our Program" title="What We Offer" />
+                <Title title="About The Conference" />
                 <Programs />
                 <Title subtitle="ICSMT 2025" title="Scope of the Conference" />
                 <Scope />
@@ -40,9 +40,11 @@ const App = () => {
                   title="Sri Eshwar College Of Engineering"
                 />
                 <About />
-                <Title subtitle="ABOUT THE DEPARTMENT" 
-                       title="Department of Mathematics" />
-                <Department/>
+                <Title
+                  subtitle="ABOUT THE DEPARTMENT"
+                  title="Department of Mathematics"
+                />
+                <Department />
                 <Title subtitle="Gallery" title="Campus Photos" />
                 <Campus />
                 <Title subtitle="Contact Us" title="Get in Touch" />

@@ -7,11 +7,11 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-text">
-        <h1>ICMST-2025</h1>
+        <h1>1st INTERNATIONAL CONFERENCE ON MATHEMATICS IN SCIENCE AND TECHNOLOGY</h1>
         <p>February 05, 06, 2025</p>
-        <h2>
-          1st INTERNATIONAL CONFERENCE ON MATHEMATICS IN SCIENCE AND TECHNOLOGY
-        </h2>
+        <h1>
+        ICMST-2025
+        </h1>
        <button className="btn">
        <Link
             to="contact"

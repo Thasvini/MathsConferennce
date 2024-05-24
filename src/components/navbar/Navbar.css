@@ -112,13 +112,15 @@ a:hover {
 
   nav ul li {
     display: block;
-    margin: 25px 20px;
+    margin: 10px 20px;
   }
 
   nav ul li .dropdown-menu {
     position: relative;
+    color:"676767";
     top: auto;
     left: auto;
+    max-width: 50px;
     box-shadow: none;
     padding: 0;
   }
