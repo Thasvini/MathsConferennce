@@ -116,7 +116,6 @@ const RegistrationFees = () => {
             <li>Accommodation not available, Fees includes lunch and refreshment for both the days.</li>
             <li>Registration fees cover Conference kit, Proceedings (DVD Format), Certificate</li>
             <li>Authors can present their paper through virtual / Video conferencing</li>
-            <li>For cancellations received before or on March 03, 2024, a 50% refund of the registration fee will be granted. After March 05, 2024, no refund can be given.</li>
           </ul>
         </div>
       </div>

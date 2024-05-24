@@ -7,7 +7,7 @@ import Title from "./components/title/Title";
 import About from "./components/about/About";
 import Department from "./components/dept/Department";
 import Campus from "./components/campus/Campus";
-import Contact from "./components/contact/Contact";
+import Contact from "./components/Downloads/Contact";
 import Footer from "./components/footer/Footer";
 import InsForAuthors from "./components/insForAuthors/InsForAuthors";
 import PlanTravel from "./components/planTravel/PlanTravel";
@@ -18,6 +18,7 @@ import Speakers from "./components/speakers/Speakers";
 import Iabc from "./components/iabc/Iabc";
 import Nabc from "./components/nabc/Nabc";
 import ScrollToTop from "./ScrollToTop"; 
+import ImportantDatesTable from "./components/ImportatDatesTable/ImportantDatesTable";
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
@@ -37,6 +38,8 @@ const App = () => {
                 <Programs />
                 <Title subtitle="ICMST 2025" title="Scope of the Conference" />
                 <Scope />
+                <Title title="Important Dates" />
+                <ImportantDatesTable/>
                 <Title
                   subtitle="ABOUT THE COLLEGE"
                   title="Sri Eshwar College Of Engineering"
