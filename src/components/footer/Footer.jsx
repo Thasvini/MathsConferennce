@@ -14,7 +14,7 @@ const Footer = () => {
             <h5>Contact</h5>
             <ul>
               <li>Email: icmst@sece.ac.in</li>
-              <li>Mobile: +91 63811 38369.</li>
+              <li>Mobile: +91 63811 38369, +91 99766 33443.</li>
               <li>
                 Web:<a href="https://www.sece.ac.in"> www.sece.ac.in</a>
               </li>

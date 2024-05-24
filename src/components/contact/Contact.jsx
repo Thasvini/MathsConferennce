@@ -40,7 +40,7 @@ const Contact = () => {
             <h3>Download Certificates<img src={download} alt="" /></h3>
             <ul>
                 <li><img src={mail_icon} alt="" />icmst@sece.ac.in</li>
-                <li><img src={phone_icon} alt="" />+91 63811 38369.</li>
+                <li><img src={phone_icon} alt="" />+91 63811 38369, +91 99766 33443.</li>
                 <li><img src={location_icon} alt="" />Sri Eshwar College of Engineering<br />Coimbatore, Tamil Nadu</li>
             </ul>
         </div>
