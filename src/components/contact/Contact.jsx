@@ -4,7 +4,7 @@ import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
-import white_arrow from '../../assets/white-arrow.png'
+import download from './download.png'
 
 const Contact = () => {
     const [result, setResult] = React.useState("");
@@ -36,11 +36,8 @@ const Contact = () => {
   return (
     <div className="contact">
         <div className="contact-col">
-            <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-            <p>Dr. D. Prasantha Bharathi,
-Conference Chair- ICMST-2025,
-Assistant Professor (SL. Gr) of Mathematics,
-Sri Eshwar College of Engineering, Coimbatore 641202, Tamil Nadu, India.</p> 
+            <h3>Download Poster<img src={download} alt="" /></h3>
+            <h3>Download Certificates<img src={download} alt="" /></h3>
             <ul>
                 <li><img src={mail_icon} alt="" />icmst@sece.ac.in</li>
                 <li><img src={phone_icon} alt="" />+91 63811 38369.</li>

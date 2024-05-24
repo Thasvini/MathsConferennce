@@ -16,8 +16,7 @@ const Footer = () => {
               <li>Email: icmst@sece.ac.in</li>
               <li>Mobile: +91 63811 38369.</li>
               <li>
-                Web: <a href="https://www.icsmt-sece.in">www.icsmt-sece.in</a>,{" "}
-                <a href="https://www.sece.ac.in">www.sece.ac.in</a>
+                Web:<a href="https://www.sece.ac.in"> www.sece.ac.in</a>
               </li>
             </ul>
           </div>

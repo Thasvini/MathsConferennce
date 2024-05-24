@@ -49,7 +49,7 @@ const App = () => {
                 <Department />
                 <Title subtitle="Gallery" title="Campus Photos" />
                 <Campus />
-                <Title subtitle="Contact Us" title="Get in Touch" />
+                <Title title="Downloads" />
                 <Contact />
               </div>
             </div>
