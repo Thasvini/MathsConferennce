@@ -44,7 +44,7 @@
     background-color: green;
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 200px) {
     .important-dates-table table,
     .important-dates-table thead,
     .important-dates-table tbody,
