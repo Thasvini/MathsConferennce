@@ -66,16 +66,18 @@
     margin: 0 25px 25px 25px;
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     .travelplan p, .travelplan li, .travelplan h2, .map-container {
       margin: 0 15px 15px 15px;
       max-width: 100%;
       font-size: 16px;
     }
-  
+    .hero4 .hero-text4 h1{
+      font-size: 30px;
+    }
     .travelplan h1 {
       margin: 100px auto 15px 15px;
-      font-size: 24px;
+      font-size: 20px;
     }
   
     .map-container iframe {

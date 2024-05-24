@@ -33,7 +33,7 @@ const App = () => {
               <div className="container">
                 <Title title="About The Conference" />
                 <Programs />
-                <Title subtitle="ICSMT 2025" title="Scope of the Conference" />
+                <Title subtitle="ICMST 2025" title="Scope of the Conference" />
                 <Scope />
                 <Title
                   subtitle="ABOUT THE COLLEGE"

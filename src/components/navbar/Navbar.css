@@ -44,8 +44,9 @@ nav ul li .dropdown-menu {
 
 nav ul li .dropdown-menu li {
   display: block;
-  padding: 10px 20px;
-  white-space: nowrap;
+  padding: 5px 10px;
+  white-space: normal; /* Allow text to wrap */
+  word-wrap: break-word;
 }
 
 nav ul li .dropdown-menu li a {
@@ -113,16 +114,17 @@ a:hover {
   nav ul li {
     display: block;
     margin: 10px 20px;
+    width: 100%; /* Ensure li takes full width */
   }
 
   nav ul li .dropdown-menu {
     position: relative;
-    color:"676767";
     top: auto;
     left: auto;
-    max-width: 50px;
     box-shadow: none;
     padding: 0;
+    display: none;
+    width: 100%; /* Ensure dropdown menu takes full width */
   }
 
   nav ul li:hover .dropdown-menu {
@@ -142,15 +144,30 @@ a:hover {
   }
 
   .hide-mobile-menu {
-    right: -210px;
+    right: -310px;
   }
-}
 
-/* Extra styles for dropdown behavior in mobile view */
-.dropdown-menu {
-  display: none;
-}
+  .dropdown-menu {
+    display: none;
+  }
 
-.dropdown-menu.show {
-  display: block;
+  .dropdown-menu.show {
+    display: block;
+  }
+
+  /* Additional styles for mobile dropdown */
+  .dropdown-menu {
+    position: relative;
+    width: 100%;
+  }
+
+  .dropdown-menu li {
+    padding: 5px 10px;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Ensure text wraps properly */
+  }
+
+  .dropdown-menu li a {
+    font-size: 14px; /* Adjust font size if necessary */
+  }
 }
