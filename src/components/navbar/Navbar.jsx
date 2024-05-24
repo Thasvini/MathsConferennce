@@ -73,7 +73,7 @@ const Navbar = () => {
         </li>
         
         <li>
-          <Link to="/contact" className="btn">Register</Link>
+          <Link to="/" className="btn">Register</Link>
         </li>
       </ul>
       {mobileMenu ? (
