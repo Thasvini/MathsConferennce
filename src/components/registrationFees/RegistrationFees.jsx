@@ -19,13 +19,13 @@ const RegistrationFees = () => {
             <tbody>
               <tr>
                 <td className="label">Indian Authors</td>
-                <td className="value">Early</td>
                 <td className="value">Normal</td>
+                <td className="value">Late</td>
               </tr>
               <tr>
                 <td className="label">UG & PG Candidates</td>
+                <td className="value">10000 INR</td>
                 <td className="value">12000 INR</td>
-                <td className="value">13000 INR</td>
               </tr>
               <tr>
                 <td className="label">Faculty & Research Scholars</td>
@@ -51,13 +51,13 @@ const RegistrationFees = () => {
             <tbody>
               <tr>
                 <td className="label">Foreign Authors</td>
-                <td className="value">Early</td>
                 <td className="value">Normal</td>
+                <td className="value">Late</td>
               </tr>
               <tr>
                 <td className="label">UG & PG Candidates</td>
+                <td className="value">USD 175</td>
                 <td className="value">USD 200</td>
-                <td className="value">USD 225</td>
               </tr>
               <tr>
                 <td className="label">Ph.D Scholar</td>

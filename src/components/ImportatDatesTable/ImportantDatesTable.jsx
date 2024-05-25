@@ -18,24 +18,24 @@ const ImportantDatesTable = () => {
             <td>12 July 2024</td>
           </tr>
           <tr>
-            <td>Last Date for Submission</td>
-            <td >25 October 2024</td>
+            <td><span>Last Date for Submission</span></td>
+            <td><span>25 October 2024</span></td>
           </tr>
           <tr>
             <td>Acceptance Notification</td>
-            <td >06 December 2024</td>
+            <td>06 December 2024</td>
           </tr>
           <tr>
-            <td>Registration Open</td>
-            <td >09 December 2024 </td>
+            <td><span>Registration Open</span></td>
+            <td><span>09 December 2024</span></td>
         </tr>
           <tr>
             <td>Registration Deadline</td>
-            <td >06 January 2025</td>
+            <td>06 January 2025</td>
           </tr>
           <tr>
-            <td>Conference Schedule Release</td>
-            <td>10 January 2025</td>
+            <td><span>Conference Schedule Release</span></td>
+            <td><span>10 January 2025</span></td>
           </tr>
         </tbody>
       </table>

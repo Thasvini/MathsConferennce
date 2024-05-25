@@ -1,77 +1,87 @@
 .important-dates-table {
-    margin: 30px 0;
-    width: 100%;
-    overflow-x: auto;
-    background-color: #ffcc00;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .important-dates-table h3 {
-    font-size: 24px;
-    color: #000f38;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .important-dates-table table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
+  margin: 30px 0;
+  width: 100%;
+  overflow-x: auto;
+  background-color: #ffcc00;
+  padding: 20px;
+  color: black;
+  border-radius: 8px;
+}
+
+.important-dates-table span {
+  color: white;
+}
+
+.important-dates-table h3 {
+  font-size: 24px;
+  color: #000f38;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.important-dates-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.important-dates-table th,
+.important-dates-table td {
+  border: 2px solid #002855;
+  padding: 12px;
+  text-align: center;
+}
+
+.important-dates-table th {
+  background-color: #002855;
+  color: white;
+}
+
+.important-dates-table td.closed {
+  color: #ffcc00;
+  background-color: #002855;
+}
+
+.important-dates-table tr:nth-child(even) {
+  background-color: #002855;
+}
+
+/* Hover color for odd rows */
+.important-dates-table tr:nth-child(odd):hover {
+  background-color: white;
+}
+
+.important-dates-table tr:nth-child(even):hover {
+  background-color: black; 
+}
+
+@media (max-width: 200px) {
+  .important-dates-table table,
+  .important-dates-table thead,
+  .important-dates-table tbody,
   .important-dates-table th,
-  .important-dates-table td {
-    border: 1px solid #002855;
-    padding: 12px;
-    text-align: center;
-  }
-  
-  .important-dates-table th {
-    background-color: #002855;
-    color: #ffcc00;
-  }
-  
-  .important-dates-table td.closed {
-    color: #ffcc00;
-    background-color: #002855;
-  }
-  
-  .important-dates-table tr:nth-child(even) {
-    background-color: #002855;
-  }
-  
-  .important-dates-table tr:hover {
-    background-color: green;
-  }
-  
-  @media (max-width: 200px) {
-    .important-dates-table table,
-    .important-dates-table thead,
-    .important-dates-table tbody,
-    .important-dates-table th,
-    .important-dates-table td,
-    .important-dates-table tr {
+  .important-dates-table td,
+  .important-dates-table tr {
       display: block;
-    }
-  
-    .important-dates-table tr {
+  }
+
+  .important-dates-table tr {
       margin-bottom: 15px;
-    }
-  
-    .important-dates-table th {
+  }
+
+  .important-dates-table th {
       position: absolute;
       top: -9999px;
       left: -9999px;
-    }
-  
-    .important-dates-table td {
+  }
+
+  .important-dates-table td {
       border: none;
       position: relative;
       padding-left: 15px;
       text-align: left;
-    }
-  
-    .important-dates-table td:before {
+  }
+
+  .important-dates-table td:before {
       content: attr(data-label);
       position: absolute;
       left: 0;
@@ -79,6 +89,5 @@
       padding-left: 15px;
       font-weight: bold;
       text-align: left;
-    }
   }
-  
+}

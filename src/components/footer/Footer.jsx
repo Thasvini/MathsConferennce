@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2024 icmst-sece</p>
+        <p>© 2025 icmst-sece</p>
       </div>
     </footer>
   );

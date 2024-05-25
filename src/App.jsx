@@ -45,7 +45,7 @@ const App = () => {
                   <ImportantDatesTable/>
                   <Title
                     subtitle="ABOUT THE COLLEGE"
-                    title="Sri Eshwar College Of Engineering"
+                    title="Sri Eshwar College of Engineering"
                   />
                   <About />
                   <Title

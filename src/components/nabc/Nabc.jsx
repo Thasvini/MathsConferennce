@@ -1,4 +1,5 @@
 import React from "react";
+import "./Nabc.css";
 
 const Nabc = () => {
   return (
@@ -51,6 +52,10 @@ const Nabc = () => {
             </li>
             <li>
               <strong>Dr. Syed Ali</strong>, Thiruvalluvar University, India
+            </li>
+            <li>
+              <strong>Dr. Geeta Arora</strong>, Lovely Professional University,
+              India
             </li>
             <li>
               <strong>Dr. K. Kalaiarasi</strong>, Cauvery College for Women,

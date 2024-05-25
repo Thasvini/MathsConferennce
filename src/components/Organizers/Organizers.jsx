@@ -58,7 +58,7 @@ const Organizers = () => {
             </div>
           </div>
         </div>
-        <h1>Faculty Coordinators</h1>
+        <h1>Program Committee</h1>
         <div className="organizer-list">
           <ul>
             <li>
