@@ -24,7 +24,7 @@ const Footer = () => {
             <h5>Address</h5>
             <ul>
               <li>
-                Conference Chair ICSMT 2025,
+                Conference Chair ICMST 2025,
                 <br />
                 Sri Eshwar College of Engineering, Kondampatti (po),
                 <br />
