@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  min-height: 90vh;
+  min-height: 70vh;
   background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)), url("../../assets/Rectangle-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;

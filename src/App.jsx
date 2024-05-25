@@ -37,7 +37,8 @@ const App = () => {
               <div>
                 <Hero />
                 <div className="container">
-                  <Title title="About The Conference" />
+                <ImportantDatesTable/>
+                <Title title="About the Conference" />
                   <Programs />
                   <Title title="Scope of the Conference" />
                   <Scope />
