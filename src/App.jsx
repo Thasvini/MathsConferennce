@@ -55,8 +55,6 @@ const App = () => {
                   <Department />
                   <Title subtitle="Gallery" title="Campus Photos" />
                   <Campus />
-                  <Title title="Downloads" />
-                  <Contact />
                 </div>
               </div>
             }
