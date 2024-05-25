@@ -11,7 +11,7 @@ const Title = lazy(() => import("./components/title/Title"));
 const About = lazy(() => import("./components/about/About"));
 const Department = lazy(() => import("./components/dept/Department"));
 const Campus = lazy(() => import("./components/campus/Campus"));
-const Contact = lazy(() => import("./components/Downloads/Contact"));
+const Contact = lazy(() => import("./components/Contact/Contact"));
 const InsForAuthors = lazy(() => import("./components/insForAuthors/InsForAuthors"));
 const PlanTravel = lazy(() => import("./components/planTravel/PlanTravel"));
 const RegistrationFees = lazy(() => import("./components/registrationFees/RegistrationFees"));
@@ -39,10 +39,8 @@ const App = () => {
                 <div className="container">
                   <Title title="About The Conference" />
                   <Programs />
-                  <Title subtitle="ICMST 2025" title="Scope of the Conference" />
+                  <Title title="Scope of the Conference" />
                   <Scope />
-                  <Title title="Important Dates" />
-                  <ImportantDatesTable/>
                   <Title
                     subtitle="ABOUT THE COLLEGE"
                     title="Sri Eshwar College of Engineering"

@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import dark_arrow from "../../assets/dark-arrow.png";
 import { Link } from "react-scroll";
+import ImportantDatesTable from "../ImportatDatesTable/ImportantDatesTable";
 
 const Hero = () => {
   return (
@@ -22,6 +23,7 @@ const Hero = () => {
             Register Now
          <img src={dark_arrow} alt="" /> </Link>
         </button>
+        <ImportantDatesTable/>
       </div>
     </div>
   );

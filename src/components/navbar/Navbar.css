@@ -19,13 +19,13 @@ nav .logo {
 nav ul {
   list-style: none;
   display: flex;
-  align-items:start;
+  align-items: start;
 }
 
 nav ul li {
   position: relative;
   padding: 5px 20px;
-  font-size:7px;
+  font-size: 7px;
   font-weight: 500;
 }
 
@@ -89,13 +89,7 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 1000px) {
-  nav ul li {
-    margin: 10px 15px;
-  }
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   nav {
     padding: 15px 0;
   }
@@ -112,6 +106,8 @@ a:hover {
     transition: 0.5s;
     flex-direction: column;
     align-items: flex-start;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 100vh; /* Ensure the height does not exceed the viewport height */
   }
 
   nav ul li {
@@ -171,6 +167,6 @@ a:hover {
   }
 
   .dropdown-menu li a {
-    font-size: 13px; 
+    font-size: 13px;
   }
 }

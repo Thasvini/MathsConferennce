@@ -40,9 +40,6 @@ const Navbar = () => {
         <li>
           <Link to="/">HOME</Link>
         </li>
-        <li>
-          <Link to="/speakers">KEYNOTE SPEAKERS</Link>
-        </li>
         <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
           <span onClick={toggleDropdown}>COMMITTEE</span>
           <ul className={`dropdown-menu ${dropdown ? "show" : ""}`}>
@@ -71,7 +68,15 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
-        
+        <li>
+          <Link to="/speakers">KEYNOTE SPEAKERS</Link>
+        </li>
+        <li>
+          <Link to="/downloads">DOWNLOADS</Link>
+        </li>
+        <li>
+          <Link to="/contact">CONTACT US</Link>
+        </li>
         <li>
           <Link to="/" className="btn">Register</Link>
         </li>
