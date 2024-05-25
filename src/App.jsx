@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import ScrollToTop from "./ScrollToTop"; 
 import Loading from "./components/loading/Loading"; // Ensure this path is correct
+import Downloads from "./components/Downloads/Downloads";
 
 const Hero = lazy(() => import("./components/hero/Hero"));
 const Programs = lazy(() => import("./components/programs/Programs"));
@@ -67,6 +68,8 @@ const App = () => {
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/iabc" element={<Iabc />} />
           <Route path="/nabc" element={<Nabc />} />
+          <Route path="/dowloads" element={<Downloads />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Suspense>
       <Footer />

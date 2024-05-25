@@ -4,7 +4,6 @@ import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
-import download from './download.png'
 
 const Contact = () => {
     const [result, setResult] = React.useState("");
@@ -36,8 +35,7 @@ const Contact = () => {
   return (
     <div className="contact">
         <div className="contact-col">
-            <h3>Download Poster<img src={download} alt="" /></h3>
-            <h3>Download Certificates<img src={download} alt="" /></h3>
+          <h3>Contact Us On</h3>
             <ul>
                 <li><img src={mail_icon} alt="" />icmst@sece.ac.in</li>
                 <li><img src={phone_icon} alt="" />+91 63811 38369, +91 99766 33443.</li>

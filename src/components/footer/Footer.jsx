@@ -40,7 +40,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2025 icmst-sece</p>
+        <p>Website Designed & Maintained By: Department of Information Technology, SECE.</p>
+        <p> © 2025 icmst-sece All Rights Reserved</p>
       </div>
     </footer>
   );
