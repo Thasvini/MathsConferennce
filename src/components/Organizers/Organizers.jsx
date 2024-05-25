@@ -52,11 +52,28 @@ const Organizers = () => {
           <div className="organizer-row">
             <div className="role">CONFERENCE CHAIR</div>
             <div className="desc">
-              <b>Dr. D. Prasantha Bharathi</b>, Assistant Professor(SL. Gr),
+              <b>Dr. D. Prasantha Bharathi</b>, Assistant Professor(Sl. Gr),
               Department of Mathematics, Sri Eshwar College of Engineering,
               Coimbatore, India.
             </div>
           </div>
+        </div>
+        <h1>Publication Chair</h1>
+        <div className="organizer-list">
+          <ul>
+            <li>
+              <strong>Dr. D. Prasantha Bharathi</strong>, Assistant Professor(Sl. Gr), Department of Mathematics, Sri Eshwar College of Engineering, Coimbatore, India.
+            </li>
+            <li>
+              <strong>Dr. Dumitru Baleanu</strong>, Lebanese American University, Beirut, Professor at Institute of Space Sciences, Bucharest
+            </li>
+            <li>
+              <strong>Dr. H. Anandakumar</strong>, Professor, Department of Computer Science and Engineering, Sri Eshwar College of Engineering, Coimbatore, India.
+            </li>
+            <li>
+              <strong>Dr. R. Maheswari</strong>, Head of the Department, Department of Mathematics, Sri Eshwar College of Engineering, Coimbatore, India.
+            </li>
+          </ul>
         </div>
         <h1>Program Committee</h1>
         <div className="organizer-list">
@@ -89,22 +106,22 @@ const Organizers = () => {
               <strong>Dr. S. Varshini</strong>, Assistant Professor
             </li>
             <li>
-              <strong>Mrs. A. Revathy</strong>, Assistant Professor (SL.Gr)
+              <strong>Mrs. A. Revathy</strong>, Assistant Professor (Sl.Gr)
             </li>
             <li>
-              <strong>Mrs. V. Deepa</strong>, Assistant Professor (SL.Gr)
+              <strong>Mrs. V. Deepa</strong>, Assistant Professor (Sl.Gr)
             </li>
             <li>
-              <strong>Mrs. K. Sivaranjani</strong>, Assistant Professor (SL.Gr)
+              <strong>Mrs. K. Sivaranjani</strong>, Assistant Professor (Sl.Gr)
             </li>
             <li>
-              <strong>Mrs. M. M. Shalini</strong>, Assistant Professor (SL.Gr)
+              <strong>Mrs. M. M. Shalini</strong>, Assistant Professor (Sl.Gr)
             </li>
             <li>
-              <strong>Mrs. N. Akiladevi</strong>, Assistant Professor (SL.Gr)
+              <strong>Mrs. N. Akiladevi</strong>, Assistant Professor (Sl.Gr)
             </li>
             <li>
-              <strong>Mrs. R. Hemalatha</strong>, Assistant Professor (SL.Gr)
+              <strong>Mrs. R. Hemalatha</strong>, Assistant Professor (Sl.Gr)
             </li>
           </ul>
         </div>

@@ -1,22 +1,24 @@
+/* Original styles */
 .important-dates-container {
   display: flex;
   align-items: flex-start;
   margin: 30px 0;
-  margin-top: -90px;
-  margin-left: -90px;
+  margin-top: -370px;
+  margin-left: -140px;
 }
 
 .important-dates-table {
-  width: 40%;
-  background-color: #ffcc00;
-  padding: 20px;
-  color: black;
-  border-radius: 20px;
+  width: 400px;
+  background-color: #5369f8;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
   margin-left: 20px;
 }
 
 .important-dates-table span {
   color: white;
+  font-size: 15px;
 }
 
 .important-dates-table h3 {
@@ -35,17 +37,13 @@
 .important-dates-table td {
   border: 2px solid #002855;
   padding: 12px;
-  text-align: center;
+  text-align: left;
+  font-size: 15px;
 }
 
 .important-dates-table th {
   background-color: #002855;
   color: white;
-}
-
-.important-dates-table td.closed {
-  color: #ffcc00;
-  background-color: #002855;
 }
 
 .important-dates-table tr:nth-child(even) {
@@ -54,61 +52,25 @@
 
 /* Hover color for odd rows */
 .important-dates-table tr:nth-child(odd):hover {
-  background-color: white;
+  background-color: green;
 }
 
 .important-dates-table tr:nth-child(even):hover {
-  background-color: black; 
+  background-color: green; 
 }
 
-
-@media (max-width: 600px) {
+/* Styles for max-width 1000px */
+@media (max-width: 1000px) {
   .important-dates-container {
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 30px 0;
   }
 
   .important-dates-table {
-    width: 100%;
     margin-left: 0;
   }
-
 }
 
-@media (max-width: 200px) {
-  .important-dates-table table,
-  .important-dates-table thead,
-  .important-dates-table tbody,
-  .important-dates-table th,
-  .important-dates-table td,
-  .important-dates-table tr {
-      display: block;
-  }
-
-  .important-dates-table tr {
-      margin-bottom: 15px;
-  }
-
-  .important-dates-table th {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-  }
-
-  .important-dates-table td {
-      border: none;
-      position: relative;
-      padding-left: 15px;
-      text-align: left;
-  }
-
-  .important-dates-table td:before {
-      content: attr(data-label);
-      position: absolute;
-      left: 0;
-      width: 50%;
-      padding-left: 15px;
-      font-weight: bold;
-      text-align: left;
-  }
-}
+/* Styles for max-width 600px */
