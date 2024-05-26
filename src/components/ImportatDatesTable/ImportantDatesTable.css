@@ -72,7 +72,7 @@
   bottom: 0;
   box-shadow: 0 0 20px  rgba(0, 255, 0, 0.8); /* Initial glow */
  
-  z-index: 20;
+  z-index: 8;
   animation: glowing 1.5s infinite;
 }
 
