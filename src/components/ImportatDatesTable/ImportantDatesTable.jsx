@@ -26,7 +26,7 @@ const ImportantDatesTable = () => {
               <td>Acceptance Notification</td>
               <td>06 December 2024</td>
             </tr>
-            <tr>
+            <tr class="glow">
               <td><span>Registration Open</span></td>
               <td><span>09 December 2024</span></td>
             </tr>

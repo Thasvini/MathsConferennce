@@ -3,12 +3,12 @@
   display: flex;
   align-items: flex-start;
   margin: 30px 0;
-  margin-top: -370px;
-  margin-left: -140px;
+  margin-top: -350px;
+  margin-left: -155px;
 }
 
 .important-dates-table {
-  width: 400px;
+  width: 40z0px;
   background-color: #5369f8;
   padding: 10px;
   color: white;
@@ -18,7 +18,7 @@
 
 .important-dates-table span {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .important-dates-table h3 {
@@ -38,7 +38,7 @@
   border: 2px solid #002855;
   padding: 12px;
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .important-dates-table th {
@@ -59,7 +59,36 @@
   background-color: green; 
 }
 
-/* Styles for max-width 1000px */
+.glow {
+  position: relative;
+}
+
+.glow::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 20px  rgba(0, 255, 0, 0.8); /* Initial glow */
+ 
+  z-index: 20;
+  animation: glowing 1.5s infinite;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.8); /* Lighter green glow */
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 1); /* Brighter green glow */
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.8); /* Lighter green glow */
+  }
+}
+
+/* Styles for max-width 1200px */
 @media (max-width: 1200px) {
   .important-dates-container {
     display: flex;
@@ -72,5 +101,3 @@
     margin-left: 0;
   }
 }
-
-/* Styles for max-width 600px */
