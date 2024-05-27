@@ -34,13 +34,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`container ${sticky ? "dark-nav" : ""}`}>
+    <nav className={`navcontainer ${sticky ? "dark-nav" : ""}`}>
       <img src={logo} alt="logo" className="logo" />
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <Link to="/"><h5>HOME</h5></Link>
         </li>
-        <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+        <li  className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
           <span onClick={toggleDropdown}><h5>COMMITTEE</h5></span>
           <ul className={`dropdown-menu ${dropdown ? "show" : ""}`}>
             <li>
