@@ -6,23 +6,35 @@
   justify-content: center;
   margin-top: 5%;
   animation: slide 15s infinite;
-  background-size:100% auto;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 @keyframes slide {
   0% {
-    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)), url("../../assets/Rectangle-1.jpg");
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)),
+      url("../../assets/Rectangle-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   33% {
-    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)), url("../../assets/sl2.jpg");
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)),
+      url("../../assets/sl2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   66% {
-    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)), url("../../assets/about.png");
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)),
+      url("../../assets/about.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   100% {
-    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)), url("../../assets/gallery-1.png");
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.4)),
+      url("../../assets/gallery-1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 }
 
@@ -59,19 +71,19 @@
   .hero {
     min-height: 55vh; /* Adjust height for even smaller screens */
   }
-  
+
   .hero .hero-text h1 {
     font-size: 25px;
     max-width: 400px;
     margin: auto;
   }
-  
+
   .hero .hero-text h2 {
     font-size: 22px;
     color: yellow;
     margin: 10px auto 20px;
   }
-  
+
   .hero-text p {
     font-size: 14px;
     margin: 15px auto 30px;
