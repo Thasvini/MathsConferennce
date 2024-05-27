@@ -4,10 +4,10 @@ import './PlanTravel.css'
 const PlanTravel = () => {
   return (
     <>
-    <div className="hero1">
-      <div className="hero-text1">
+    <div className="hero4">
+      <div className="hero-text4">
         <h1>ICMST-2025</h1>
-        <p>February 05, 06, 2025</p>
+        <p>February 06, 07, 2025</p>
         <h2>
           KNOW ABOUT THE TRAVEL PLANS HERE 
         </h2>

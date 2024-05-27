@@ -13,12 +13,10 @@ const Footer = () => {
           <div className="footer-col">
             <h5>Contact</h5>
             <ul>
-              <li>Dr. D. Prasantha Bharathi,</li>
               <li>Email: icmst@sece.ac.in</li>
-              <li>Mobile: +91 63811 38369.</li>
+              <li>Mobile: +91 63811 38369, +91 99766 33443.</li>
               <li>
-                Web: <a href="https://www.icsmt-sece.in">www.icsmt-sece.in</a>,{" "}
-                <a href="https://www.sece.ac.in">www.sece.ac.in</a>
+                Web:<a href="https://www.sece.ac.in"> www.sece.ac.in</a>
               </li>
             </ul>
           </div>
@@ -26,7 +24,7 @@ const Footer = () => {
             <h5>Address</h5>
             <ul>
               <li>
-                Conference Chair ICSMT 2025,
+                Conference Chair ICMST 2025,
                 <br />
                 Sri Eshwar College of Engineering, Kondampatti (po),
                 <br />
@@ -35,14 +33,15 @@ const Footer = () => {
                 TamilNadu, INDIA.
               </li>
               <li>
-                <a href="http://www.icsmt-sece.in/">Submit your paper</a>
+                <a href="/">Submit your paper</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2024 icsmt-sece</p>
+        <p>Website Designed & Maintained By: Department of Information Technology, SECE.</p>
+        <p> © 2025 icmst-sece All Rights Reserved</p>
       </div>
     </footer>
   );

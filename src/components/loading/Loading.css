@@ -1,0 +1,13 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color:#F5F5F5; /* Optional: translucent background */
+  }
+  
+  .loading-gif {
+    width: 230px; /* Adjust the size as needed */
+    height: 200px;
+  }
+  

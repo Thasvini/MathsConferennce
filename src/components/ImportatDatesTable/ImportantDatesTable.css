@@ -1,0 +1,103 @@
+/* Original styles */
+.important-dates-container {
+  display: flex;
+  align-items: flex-start;
+  margin: 30px 0;
+  margin-top: -350px;
+  margin-left: -155px;
+}
+
+.important-dates-table {
+  width: 40z0px;
+  background-color: #5369f8;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.important-dates-table span {
+  color: white;
+  font-size: 14px;
+}
+
+.important-dates-table h3 {
+  font-size: 24px;
+  color: #000f38;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.important-dates-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.important-dates-table th,
+.important-dates-table td {
+  border: 2px solid #002855;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.important-dates-table th {
+  background-color: #002855;
+  color: white;
+}
+
+.important-dates-table tr:nth-child(even) {
+  background-color: #002855;
+}
+
+/* Hover color for odd rows */
+.important-dates-table tr:nth-child(odd):hover {
+  background-color: green;
+}
+
+.important-dates-table tr:nth-child(even):hover {
+  background-color: green; 
+}
+
+.glow {
+  position: relative;
+}
+
+.glow::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 20px  rgba(0, 255, 0, 0.8); /* Initial glow */
+ 
+  z-index: 8;
+  animation: glowing 1.5s infinite;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.8); /* Lighter green glow */
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 255, 0, 1); /* Brighter green glow */
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.8); /* Lighter green glow */
+  }
+}
+
+/* Styles for max-width 1200px */
+@media (max-width: 1200px) {
+  .important-dates-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  .important-dates-table {
+    margin-left: 0;
+  }
+}

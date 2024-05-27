@@ -38,35 +38,47 @@ const Navbar = () => {
       <img src={logo} alt="logo" className="logo" />
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
-          <Link to="/">Home</Link>
-        </li><li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-          <span onClick={toggleDropdown}>Organizing Committee</span>
+          <Link to="/">HOME</Link>
+        </li>
+        <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+          <span onClick={toggleDropdown}>COMMITTEE</span>
           <ul className={`dropdown-menu ${dropdown ? "show" : ""}`}>
             <li>
-              <Link to="/organizers">Organizing Committee</Link>
+              <Link to="/organizers">ORGANIZING COMMITTEE</Link>
             </li>
             <li>
-              <Link to="/speakers">Keynote Speakers</Link>
+              <Link to="/iabc">INTERNATIONAL ADVISORY BOARD COMMITTEE</Link>
+            </li>
+            <li>
+              <Link to="/nabc">NATIONAL ADVISORY BOARD COMMITTEE</Link>
             </li>
           </ul>
         </li>
         <li className="dropdown" onMouseEnter={toggleDropdown2} onMouseLeave={toggleDropdown2}>
-          <span onClick={toggleDropdown}>Instruction For Authors</span>
+          <span onClick={toggleDropdown}>INSTRUCTION FOR AUTHORS</span>
           <ul className={`dropdown-menu ${dropdown2 ? "show" : ""}`}>
             <li>
-              <Link to="/instructions">Instruction for authors</Link>
+              <Link to="/instructions">INSTRUCTION FOR AUTHORS</Link>
             </li>
             <li>
-              <Link to="/registrationfees">Registration Fees</Link>
+              <Link to="/registrationfees">REGISTRATION FEES</Link>
             </li>
             <li>
-              <Link to="/plantravel">Plan Travel</Link>
+              <Link to="/plantravel">PLAN TRAVEL</Link>
             </li>
           </ul>
         </li>
-        
         <li>
-          <Link to="/contact" className="btn">Register</Link>
+          <Link to="/speakers">KEYNOTE SPEAKERS</Link>
+        </li>
+        <li>
+          <Link to="/downloads">DOWNLOADS</Link>
+        </li>
+        <li>
+          <Link to="/contact">CONTACT US</Link>
+        </li>
+        <li>
+          <Link to="/" className="btn">Register</Link>
         </li>
       </ul>
       {mobileMenu ? (

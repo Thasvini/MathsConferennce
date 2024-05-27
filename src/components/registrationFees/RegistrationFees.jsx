@@ -7,7 +7,7 @@ const RegistrationFees = () => {
       <div className="hero2">
         <div className="hero-text2">
           <h1>ICMST-2025</h1>
-          <p>February 05, 06, 2025</p>
+          <p>February 06, 07, 2025</p>
           <h2>GATHER INFORMATION ABOUT REGISTRATION FEES HERE</h2>
         </div>
       </div>
@@ -19,13 +19,13 @@ const RegistrationFees = () => {
             <tbody>
               <tr>
                 <td className="label">Indian Authors</td>
-                <td className="value">Early</td>
                 <td className="value">Normal</td>
+                <td className="value">Late</td>
               </tr>
               <tr>
                 <td className="label">UG & PG Candidates</td>
+                <td className="value">10000 INR</td>
                 <td className="value">12000 INR</td>
-                <td className="value">13000 INR</td>
               </tr>
               <tr>
                 <td className="label">Faculty & Research Scholars</td>
@@ -51,13 +51,13 @@ const RegistrationFees = () => {
             <tbody>
               <tr>
                 <td className="label">Foreign Authors</td>
-                <td className="value">Early</td>
                 <td className="value">Normal</td>
+                <td className="value">Late</td>
               </tr>
               <tr>
                 <td className="label">UG & PG Candidates</td>
+                <td className="value">USD 175</td>
                 <td className="value">USD 200</td>
-                <td className="value">USD 225</td>
               </tr>
               <tr>
                 <td className="label">Ph.D Scholar</td>
@@ -116,7 +116,6 @@ const RegistrationFees = () => {
             <li>Accommodation not available, Fees includes lunch and refreshment for both the days.</li>
             <li>Registration fees cover Conference kit, Proceedings (DVD Format), Certificate</li>
             <li>Authors can present their paper through virtual / Video conferencing</li>
-            <li>For cancellations received before or on March 03, 2024, a 50% refund of the registration fee will be granted. After March 05, 2024, no refund can be given.</li>
           </ul>
         </div>
       </div>

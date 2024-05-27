@@ -1,0 +1,33 @@
+
+/* Downloads.css */
+   #kk {
+     margin-top: 120px;
+     margin-left: 50px;
+   }
+
+   .downloaditems img {
+     width: 50px;
+     margin-right: 10px;
+   }
+   
+   .downloaditems a {
+     text-decoration: none;
+     color: inherit;
+     display: flex;
+     align-items: center;
+   }
+   .downloaditems h1{
+     font-size: 32px;
+     color: #212EA0;
+     margin-top: 5px;
+     text-transform: none;
+ }  
+   .downloaditems h3 {
+     color:#000f38;
+     font-weight: 700;
+     font-size: 28px;
+     display: flex;
+     align-items: center;
+     margin-top:50px;
+     margin-bottom: 20px;
+   }
