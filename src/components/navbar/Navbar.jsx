@@ -38,44 +38,44 @@ const Navbar = () => {
       <img src={logo} alt="logo" className="logo" />
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
-          <Link to="/">HOME</Link>
+          <Link to="/"><h5>HOME</h5></Link>
         </li>
         <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-          <span onClick={toggleDropdown}>COMMITTEE</span>
+          <span onClick={toggleDropdown}><h5>COMMITTEE</h5></span>
           <ul className={`dropdown-menu ${dropdown ? "show" : ""}`}>
             <li>
-              <Link to="/organizers">ORGANIZING COMMITTEE</Link>
+              <Link to="/organizers"><h5>ORGANIZING COMMITTEE</h5></Link>
             </li>
             <li>
-              <Link to="/iabc">INTERNATIONAL ADVISORY BOARD COMMITTEE</Link>
+              <Link to="/iabc"><h5>INTERNATIONAL ADVISORY BOARD COMMITTEE</h5></Link>
             </li>
             <li>
-              <Link to="/nabc">NATIONAL ADVISORY BOARD COMMITTEE</Link>
+              <Link to="/nabc"><h5>NATIONAL ADVISORY BOARD COMMITTEE</h5></Link>
             </li>
           </ul>
         </li>
         <li className="dropdown" onMouseEnter={toggleDropdown2} onMouseLeave={toggleDropdown2}>
-          <span onClick={toggleDropdown}>INSTRUCTION FOR AUTHORS</span>
+          <span onClick={toggleDropdown}><h5>INSTRUCTION FOR AUTHORS</h5></span>
           <ul className={`dropdown-menu ${dropdown2 ? "show" : ""}`}>
             <li>
-              <Link to="/instructions">INSTRUCTION FOR AUTHORS</Link>
+              <Link to="/instructions"><h5>INSTRUCTION FOR AUTHORS</h5></Link>
             </li>
             <li>
-              <Link to="/registrationfees">REGISTRATION FEES</Link>
+              <Link to="/registrationfees"><h5>REGISTRATION FEES</h5></Link>
             </li>
             <li>
-              <Link to="/plantravel">PLAN TRAVEL</Link>
+              <Link to="/plantravel"><h5>TRAVEL PLAN</h5></Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link to="/speakers">KEYNOTE SPEAKERS</Link>
+          <Link to="/speakers"><h5>KEYNOTE SPEAKERS</h5></Link>
         </li>
         <li>
-          <Link to="/downloads">DOWNLOADS</Link>
+          <Link to="/downloads"><h5>DOWNLOADS</h5></Link>
         </li>
         <li>
-          <Link to="/contact">CONTACT US</Link>
+          <Link to="/contact"><h5>CONTACT</h5></Link>
         </li>
         <li>
           <Link to="/" className="btn">Register</Link>

@@ -22,11 +22,15 @@ nav ul {
   align-items: start;
 }
 
+nav h5{
+  font-size: 14px;
+}
+
 nav ul li {
   position: relative;
   padding: 5px 20px;
   font-size: 7px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 nav ul li .dropdown-menu {
@@ -65,7 +69,7 @@ nav .btn {
   background: black;
   color: white;
   padding: 14px 25px;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 30px;
   cursor: pointer;
   border: 0;
@@ -167,6 +171,6 @@ a:hover {
   }
 
   .dropdown-menu li a {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
