@@ -136,7 +136,7 @@ const InsForAuthors = () => {
           <h2>Peer Review Process</h2>
           <ul>
             <li>
-              The ICSMT-2024 has a double-blind peer-review process. In
+              The ICMST-2025 has a double-blind peer-review process. In
               double-anonymous, neither the author nor the reviewers are aware
               of each other’s identity.
             </li>

@@ -1,7 +1,7 @@
 
 /* Downloads.css */
    #kk {
-     margin-top: 120px;
+     margin-top: 13%;
      margin-left: 50px;
    }
 
@@ -31,3 +31,9 @@
      margin-top:50px;
      margin-bottom: 20px;
    }
+
+   @media (max-width: 900px) {
+    #kk{
+      margin-top: 20%;
+    }
+  }
